@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font -->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Thasadith&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .th_font {
+        font-family: "Thasadith", sans-serif;
+        font-size: 28px;
+        color: white;
+      }
+      .eng_font_topic {
+        font-family: "Fredoka One", cursive;
+        font-size: 100px;
+        color: white;
+      }
+      .eng_font_all {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: black;
+      }
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+    </style>
+
+    <title>ระบบตรวจสอบคำบูลลี่</title>
+  </head>
+
+  <body class="text-center">
+    <video autoplay muted loop id="myVideo" style="z-index: -1;">
+      <source src="static/video/1.mp4" type="video/mp4" />
+      <source src="video/1.mp4" type="video/mp4" />
+    </video>
+
+    <div class="container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <!-- <div class="inner">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarsExample10"
+              aria-controls="navbarsExample10"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class=" navbar-collapse justify-content-center collapse"
+              id="navbarsExample10"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a
+                    class="nav-link th_font"
+                    style="font-size: medium;"
+                    href="http://127.0.0.1:80/"
+                  >
+                    ระบบตรวจสอบ
+                    <span class="badge badge-pill badge-success">คำบูลลี่</span>
+                    <span class="sr-only">(current)</span></a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a
+                    class="nav-link th_font"
+                    style="font-size: medium;color: white;"
+                    href="http://127.0.0.1:80/"
+                    >หน้าแรก</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link th_font"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    style="font-size: medium;color: white;"
+                    >เกี่ยวกับเรา</a
+                  >
+                </li>
+                <li class="nav-item dropdown ">
+                  <a
+                    class="nav-link dropdown-toggle th_font"
+                    href="#"
+                    id="dropdown10"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    style="font-size: medium;color: white;"
+                    >ติอต่อ</a
+                  >
+                  <div class="dropdown-menu" aria-labelledby="dropdown10">
+                    <a class="dropdown-item" href="#">Facebook</a>
+                    <a class="dropdown-item" href="#">Twitter</a>
+                    
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div> -->
+        <p style="height: 7cm;"></p>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading th_font"
+        style="font-size:90px;">
+          ระบบตรวจสอบ
+          <span class="badge badge-pill badge-success">คำบูลลี่</span>
+        </h1>
+
+        <p class="lead th_font">
+          ระบบตรวจจับคำบูลลี่ที่แรกของประเทศไทยโดยการรับคำที่พิมมาทำการประมวลผลด้วย
+          Machine learning
+        </p>
+
+        <p class="lead">
+          <a
+            href="http://127.0.0.1/input"
+            class="btn btn-primary th_font btn-lg"
+            >พิมพ์คำที่ต้องการ</a
+          >
+        </p>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <p style="height: 5cm;"></p>
+
+        <div class="inner">
+          <p></p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

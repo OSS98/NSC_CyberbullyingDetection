@@ -1,0 +1,264 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans|Thasadith&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .th_font {
+        font-family: "Thasadith", sans-serif;
+        font-size: 28px;
+      }
+      .eng_font_topic {
+        font-family: "Fredoka One", cursive;
+        font-size: 60px;
+      }
+      .eng_font_all {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: black;
+      }
+    </style>
+
+    <style type="text/css">
+      /* h1 {
+        color: green;
+      } */
+      .xyz {
+        background-size: auto;
+        text-align: center;
+        padding-top: 100px;
+      }
+      .btn-circle.btn-sm {
+        width: 30px;
+        height: 30px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        font-size: 8px;
+        text-align: center;
+      }
+      .btn-circle.btn-md {
+        width: 50px;
+        height: 50px;
+        padding: 7px 10px;
+        border-radius: 25px;
+        font-size: 10px;
+        text-align: center;
+      }
+      .btn-circle.btn-xl {
+        width: 170px;
+        height: 70px;
+        padding: 10px 16px;
+        border-radius: 35px;
+        font-size: 19px;
+        text-align: center;
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="cover.css" rel="stylesheet" /> -->
+  </head>
+
+  <body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarsExample10"
+              aria-controls="navbarsExample10"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div
+              class="navbar-collapse justify-content collapse"
+              id="navbarsExample10"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a
+                    class="nav-link eng_font_topic"
+                    style="font-size: medium;"
+                    href="#"
+                  >
+                    Bully
+                    <span class="badge badge-pill badge-success"
+                      >Detection</span
+                    >
+                    <span class="sr-only">(current)</span></a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link "
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >About us</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdown10"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Contact</a
+                  >
+                  <div class="dropdown-menu" aria-labelledby="dropdown10">
+                    <a class="dropdown-item" href="#">Facebook</a>
+                    <a class="dropdown-item" href="#">Twitter</a>
+                    <!-- <text class="dropdown-item" >0XX-XXXX-XXX</text> -->
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading eng_font_topic">
+          Bully <span class="badge badge-pill badge-success">Detection</span>
+        </h1>
+
+        <p class="lead th_font">
+          ระบบตรวจจับคำบูลลี่ที่แรกของประเทศไทยโดยการรับคำที่พิมมาทำการประมวลผลด้วย
+          Machine learning
+        </p>
+
+        <!-- <p class="lead"> -->
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-primary th_font btn-circle btn-xl btn-outline-white"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          พิมพ์คำที่ต้องการ
+        </button>
+
+        <!-- Modal -->
+        
+        <div
+          class="modal fade th_font"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  กรอกคำที่ต้องการ
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- <form action="{{url_for('output_word')}}" method="POST">
+                  <input
+                    class="form-control"
+                    style="text-align: center"
+                    type="text"
+                    name="bully"
+                  />
+                  <br />
+                  <input
+                    type="submit"
+                    class="btn btn-primary btn-circle btn-xl"
+                    value="ยอมรับ"
+                  />
+                </form> -->
+              </div>
+              <div class="modal-footer"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>
+        
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <style type="text/css" id="dark-mode-custom-color">
+    :root {
+      --bg-color: rgba(26, 26, 26, 1);
+      --text-color: rgba(110, 110, 110, 1);
+      --a-color: rgba(90, 120, 120, 1);
+      --a-visited-color: rgba(120, 120, 90, 1);
+      --a-hover-color: rgba(211, 211, 211, 1);
+      --input-border-color: rgba(211, 211, 211, 0.2);
+      --input-placeholder-color: rgba(173, 216, 230, 1);
+      --dialog-bg-color: rgba(36, 36, 36, 0.95);
+      --bg-image: linear-gradient(rgba(26, 26, 26, 1), rgba(26, 26, 26, 1));
+    }
+  </style>
+</html>
